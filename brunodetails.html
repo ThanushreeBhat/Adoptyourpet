@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>BRUNO</title>
+        <style>
+    body {
+      background-color: #fff8f0; /* Soft pet-friendly background */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #d87b5f;
+      font-size: 36px;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    button#adopt-btn {
+      background-color: #ff7f50;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 15px;
+      transition: background-color 0.3s;
+    }
+
+    button#adopt-btn:hover {
+      background-color: #e0693f;
+    }
+
+    img#pet-image {
+      border-radius: 12px;
+      max-width: 300px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+    </head>
+    <body>
+        <center>
+        <img id="pet-image" src="https://petsfarm.net.in/wp-content/uploads/2024/06/labrador-retriever-puppy-in-india-1-1.webp"/>
+    
+<h1 id="pet-name">BRUNO</h1>
+   
+  <p><strong>Age:6months</strong> <span id="pet-age"></span></p>
+  <p><strong>Breed:Labrador</strong> <span id="pet-breed"></span></p>
+  <p><strong>Fun Fact:"Labradors are smart!"</strong> <span id="pet-funfact"></span></p>
+  <a href="adoptionbruno.html"><button id="adopt-btn">Adopt Me</button></a>
+</center>
+  <script>
+//     // Assuming Bella's id is 1
+//     const petId = 1;
+
+//     // Replace with your backend API URL
+//     const apiURL = "";
+
+//     async function fetchPetDetails() {
+//       try {
+//         const response = await fetch(apiURL);
+//         if (!response.ok) {
+//           throw new Error('Failed to fetch pet details');
+//         }
+//         const pet = await response.json();
+
+//         document.getElementById('pet-name').textContent = pet.name;
+//         document.getElementById('pet-image').src = pet.image;  // Make sure image path works
+//         document.getElementById('pet-image').alt = pet.name;
+//         document.getElementById('pet-age').textContent = pet.age + ' years';
+//         document.getElementById('pet-breed').textContent = pet.breed;
+//         document.getElementById('pet-funfact').textContent = pet.fun_fact;
+
+//         // Set adopt button click handler to redirect to adoption form
+//         document.getElementById('adopt-btn').onclick = () => {
+//           window.location.href = `adoption-form.html?petId=${pet.id}&petName=${encodeURIComponent(pet.name)}`;
+//         };
+//       } catch (error) {
+//         document.body.innerHTML = '<p>Error loading pet details. Please try again later.</p>';
+//         console.error(error);
+//       }
+//     }
+
+//     fetchPetDetails();
+//   </script>
+</body>
+</html>
