@@ -7,11 +7,11 @@ app.use(express.json());
 const pets = [
   { id: 1, name: "Bella",age:2, type: "Dog",breed: "Golden Retriever",
     fun_fact: "Golden Retrievers love swimming!", image: "bella.jpg" },
-  { id: 2, name: "Milo", type: "Cat",breed:"Siamese",fun_fact:"", image: "milo.jpg" },
-  {id:3, name:"Max",type:"Dog",breed:"Pomerian",fun_fact:"Siamese cats are known for their vocal personality!",image:"max.jpg"},
-  {id:4, name:"Bruno", type:"Dog",breed:"Labrador",fun_fact:"Labradors are smart!",image:"bruno.jpg"},
-  {id:5, name:"Luna",type:"Cat",breed:"Persian",fun_fact:"Persian cats are calm, affectionate, and love a quiet environment.",image:"luna.jpg"},
-  {id:6, name:"Buddy",type:"Dog",breed:"German Shepherd",fun_fact:"German Shepherds are fun-loving!",image:"buddy.jpg"}
+  { id: 2, name: "Milo",age:3, type: "Cat",breed:"Siamese",fun_fact:"", image: "milo.jpg" },
+  {id:3, name:"Max",age:1,type:"Dog",breed:"Pomerian",fun_fact:"Siamese cats are known for their vocal personality!",image:"max.jpg"},
+  {id:4, name:"Bruno",age:"6months", type:"Dog",breed:"Labrador",fun_fact:"Labradors are smart!",image:"bruno.jpg"},
+  {id:5, name:"Luna",age:1,type:"Cat",breed:"Persian",fun_fact:"Persian cats are calm, affectionate, and love a quiet environment.",image:"luna.jpg"},
+  {id:6, name:"Buddy",age:1,type:"Dog",breed:"German Shepherd",fun_fact:"German Shepherds are fun-loving!",image:"buddy.jpg"}
 ];
 
 // GET /pets endpoint
